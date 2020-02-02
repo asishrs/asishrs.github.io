@@ -155,9 +155,23 @@
         </url>
     
         <url>
+            <loc>https://asishrs.com/about/</loc>
+            
+                <lastmod>2020-02-01T22:44:06-07:00</lastmod>
+            
+            
+                <changefreq>weekly</changefreq>
+            
+            
+                <priority>0.5</priority>
+            
+            
+        </url>
+    
+        <url>
             <loc>https://asishrs.com/tags/kafka/</loc>
             
-                <lastmod>2020-02-01T23:13:15-07:00</lastmod>
+                <lastmod>2018-10-17T23:13:15-07:00</lastmod>
             
             
                 <changefreq>weekly</changefreq>
@@ -171,7 +185,7 @@
         <url>
             <loc>https://asishrs.com/tags/spring/</loc>
             
-                <lastmod>2020-02-01T23:13:15-07:00</lastmod>
+                <lastmod>2018-10-17T23:13:15-07:00</lastmod>
             
             
                 <changefreq>weekly</changefreq>
@@ -183,9 +197,9 @@
         </url>
     
         <url>
-            <loc>https://asishrs.com/2020/02/spring-cloud-config-refresh-kafka/</loc>
+            <loc>https://asishrs.com/2018/10/spring-cloud-config-refresh-kafka/</loc>
             
-                <lastmod>2020-02-01T23:13:15-07:00</lastmod>
+                <lastmod>2018-10-17T23:13:15-07:00</lastmod>
             
             
                 <changefreq>weekly</changefreq>
@@ -199,7 +213,7 @@
         <url>
             <loc>https://asishrs.com/tags/cgroup/</loc>
             
-                <lastmod>2020-02-01T23:01:54-07:00</lastmod>
+                <lastmod>2018-10-17T23:01:54-07:00</lastmod>
             
             
                 <changefreq>weekly</changefreq>
@@ -213,7 +227,7 @@
         <url>
             <loc>https://asishrs.com/tags/docker/</loc>
             
-                <lastmod>2020-02-01T23:01:54-07:00</lastmod>
+                <lastmod>2018-10-17T23:01:54-07:00</lastmod>
             
             
                 <changefreq>weekly</changefreq>
@@ -225,23 +239,9 @@
         </url>
     
         <url>
-            <loc>https://asishrs.com/2020/02/docker-limit-cgroup/</loc>
+            <loc>https://asishrs.com/2018/10/docker-limit-cgroup/</loc>
             
-                <lastmod>2020-02-01T23:01:54-07:00</lastmod>
-            
-            
-                <changefreq>weekly</changefreq>
-            
-            
-                <priority>0.5</priority>
-            
-            
-        </url>
-    
-        <url>
-            <loc>https://asishrs.com/about/</loc>
-            
-                <lastmod>2020-02-01T22:44:06-07:00</lastmod>
+                <lastmod>2018-10-17T23:01:54-07:00</lastmod>
             
             
                 <changefreq>weekly</changefreq>
