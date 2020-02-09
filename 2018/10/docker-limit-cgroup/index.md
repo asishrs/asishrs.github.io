@@ -1,7 +1,5 @@
 # Docker limit resource utilization using cgroup-parent
 
-Docker limit resource utilization using cgroup-parent
-=====================================================
 
 <img class="cp t u fz ak" src="https://miro.medium.com/max/7842/1*hjJCRo-Rk3E_WufIFE2duQ.jpeg" width="3921" height="2185" role="presentation"/>
 

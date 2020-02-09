@@ -1,9 +1,7 @@
 # Automate your GitHub Pages Deployment using Hugo and Actions
 
 
-Automate your GitHub Pages Deployment using Hugo and Actions
-============================================================
-<img class="cp t u fz ak" src="https://miro.medium.com/max/10944/1*GKwbmlz8ejUth6WpPmrHhQ.jpeg" width="5472" height="3648" role="presentation"/>
+![](/images/posts/hugo-actions/hugo-actions.png)
 
 I am a fan of [Hugo](https://gohugo.io/) for building static websites and blogs. It is very easy to set up Hugo and start building webpages using markdown. If you want to add some serious customizations to your pages you can achieve that using [shortcodes](https://gohugo.io/content-management/shortcodes/). You have access to thousands of [themes](https://themes.gohugo.io/) which makes bootstrapping easy.
 
