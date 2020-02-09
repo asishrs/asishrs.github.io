@@ -1,6 +1,8 @@
 # Automated and Authenticated APIs stack using Lambda, API Gateway and Cloudformation (AWS)
 
 
+<img class="cp t u fz ak" src="/images/posts/aws-lambda-cf/lambda-cloud-formation.png" width="3921" height="2185" role="presentation"/>
+
 In this article, I will show how you can set up a protected API endpoint using AWS Lamda, API Gateway, and automate the deployment of the stack using AWS CloudFormation.
 
 If you don’t have prior knowledge of the resources/components mentioned above, read the high-level description below.

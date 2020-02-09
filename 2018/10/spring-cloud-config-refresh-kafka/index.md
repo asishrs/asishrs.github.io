@@ -1,6 +1,8 @@
 # Spring Cloud Config Auto Refresh + Custom Kafka topic
 
 
+<img class="cp t u fz ak" src="/images/posts/spring-kafka/spring-kafka.png" width="3921" height="2185" role="presentation"/>
+
 [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/) is one of the best features that Spring provides as part of the framework. Spring Cloud Config allows your java application to follow Externalized configuration pattern which is must have if you are building microservices. Additionally, you can also enable the automatic config refresh in Spring Cloud Config so that all your components receive the latest configuration values when there is a change in the configuration. For automatic configuration delivery, Spring Cloud use Kafka or RabbitMQ messaging platforms. This article is going to explain how to define your own Kafka topics with Spring Cloud Config.
 
 Using default configuration, Spring Cloud Config use predefined Kafka channel springCloudBusInput and springCloudBusOutput. Also, Kafka configuration expects you to provide the _zookeeper_ nodes using the option _spring.cloud.stream.kafka.binder.zkNodes_. This works well if you are using a Kafka broker that you manage or you have control. In that instance, your configuration looks like below.
