@@ -140,7 +140,7 @@ Here is the screenshot from `htop`.
 
 <img class="cp t u fz ak" src="https://miro.medium.com/max/1246/1*4aVlP0rRxtP_tV-UgBFMGA.png" width="623" height="87" role="presentation"/>
 
-😲You can see that the cpu utilization is nearly 50% and the memory is at 223mb (this includes the memory for other processes on the host).
+😲 You can see that the cpu utilization is nearly 50% and the memory is at 223mb (this includes the memory for other processes on the host).
 
 **Next Steps:** Chekc how can you persist the cgroups so that can create atomic hosts.
 
