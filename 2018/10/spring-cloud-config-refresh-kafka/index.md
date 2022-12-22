@@ -1,7 +1,7 @@
 # Spring Cloud Config Auto Refresh + Custom Kafka topic
 
 
-<img class="cp t u fz ak" src="/images/posts/spring-kafka/spring-kafka.png" width="3921" height="2185" role="presentation"/>
+<img class="cp t u fz ak" src="/images/posts/spring-kafka/spring-kafka.png" role="presentation"/>
 
 [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/) is one of the best features that Spring provides as part of the framework. Spring Cloud Config allows your java application to follow Externalized configuration pattern which is must have if you are building microservices. Additionally, you can also enable the automatic config refresh in Spring Cloud Config so that all your components receive the latest configuration values when there is a change in the configuration. For automatic configuration delivery, Spring Cloud use Kafka or RabbitMQ messaging platforms. This article is going to explain how to define your own Kafka topics with Spring Cloud Config.
 
@@ -80,3 +80,4 @@ Reference
 
 * [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/)
 * [Spring Cloud](https://spring.io/projects/spring-cloud)
+

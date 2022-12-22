@@ -1,7 +1,7 @@
 # Proxyless gRPC load balancing in Kubernetes
 
 
-<img class="cp t u fz ak" src="/images/posts/proxyless-grpc/main.png" width="3921" height="2185" role="presentation"/>
+<img class="cp t u fz ak" src="/images/posts/proxyless-grpc/main.png" role="presentation"/>
 
 In this post, I will show how you can build a proxy-less load balancing for your gRPC services using the new xDS load balancing.
 
@@ -50,7 +50,7 @@ To leverage xDS load balancing, the gRPC client needs to connect to the xDS serv
 
 The diagram below shows the sequence of API calls.
 
-<img alt="Image for post" class="t u v cy ai" src="/images/posts/proxyless-grpc/xDS-api.png" width="1502" height="824" />
+<img alt="Image for post" class="t u v cy ai" src="/images/posts/proxyless-grpc/xDS-api.png" />
 
 xDS API calls
 
@@ -61,7 +61,7 @@ xDS EndPoint Discovery in Kubernetes cluster
 
 In this example, I am using k8s _client-go_ to discover the EndPoints and Envoy [go-control-plane](https://github.com/envoyproxy/go-control-plane) as the xDS server. In my implementation, the xDS server [polls the Kubernetes endpoints](https://github.com/asishrs/proxyless-grpc-lb/blob/master/xds-server/internal/app/resources.go#L51) every minute and updates the xDS snapshot with the gRPC server IP address and port. Since I am using a minute interval for polling, clients may take up to a minute to reflect the Endpoint updates.
 
-<img alt="Image for post" class="t u v cy ai" src="/images/posts/proxyless-grpc/endpoint-discovery.png" width="1554" height="284"/>
+<img alt="Image for post" class="t u v cy ai" src="/images/posts/proxyless-grpc/endpoint-discovery.png" />
 
 **_Note:_** _Envoy go-control-plane doesn’t support multiple gRPC client requests. I am using a forked version_ [_with a fix for this_](https://github.com/asishrs/go-control-plane/blob/master/pkg/cache/v2/simple.go#L165)_. I have an_ [_issue open_](https://github.com/envoyproxy/go-control-plane/issues/349) _to discuss the same with the Envoy team._
 
@@ -70,7 +70,7 @@ Example Application
 
 I am using two gRPC services (hello and howdy) and clients connecting to those in a load-balanced way in this example application. The below diagram shows the setup.
 
-<img alt="Image for post" class="t u v cy ai" src="/images/posts/proxyless-grpc/application.png" width="1676" height="746"/>
+<img alt="Image for post" class="t u v cy ai" src="/images/posts/proxyless-grpc/application.png" />
 
 See all in Action
 =================
@@ -188,7 +188,7 @@ Similarly, you can check the _howdy-client_ logs `kubectl logs -f deployment/how
 
 Here is the diagram representing, the whole setup.
 
-<img alt="Image for post" class="t u v cy ai" src="/images/posts/proxyless-grpc/final.png" width="2092" height="734"/>
+<img alt="Image for post" class="t u v cy ai" src="/images/posts/proxyless-grpc/final.png" />
 
 Next Steps
 ==========
@@ -206,7 +206,7 @@ Bonus Diagram
 
 Here is the diagram with every call in this experiment.
 
-<img alt="Image for post" class="t u v cy ai" src="/images/posts/proxyless-grpc/bonus.png" width="2200" height="1210"/>
+<img alt="Image for post" class="t u v cy ai" src="/images/posts/proxyless-grpc/bonus.png" />
 
 References
 ==========

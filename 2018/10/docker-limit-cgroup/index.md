@@ -1,7 +1,7 @@
 # Docker limit resource utilization using cgroup-parent
 
 
-<img class="cp t u fz ak" src="https://miro.medium.com/max/7842/1*hjJCRo-Rk3E_WufIFE2duQ.jpeg" width="3921" height="2185" role="presentation"/>
+<img class="cp t u fz ak" src="https://miro.medium.com/max/7842/1*hjJCRo-Rk3E_WufIFE2duQ.jpeg" role="presentation"/>
 
 One of the things you have to keep in mind in the cloud journey is limiting the resources (CPU and memory) for all running containers. Restrict CPU and Memory utilization across all containers is very important especially if you are running multiple containers. Docker presents an option called cgroup-parent for this purpose. You can check the official docker documentation on cgroup-parent [here](https://docs.docker.com/engine/reference/commandline/dockerd/#miscellaneous-options). Unfortunately, docker documentation doesn’t provide enough details for you start using use cgroup-parent. You can continue to read this post if you are still looking a way to apply resource limitation to your containers.
 
@@ -151,4 +151,5 @@ Here is the screenshot from `htop`.
 
 [https://docs.docker.com/engine/reference/commandline/dockerd/#miscellaneous-options](https://docs.docker.com/engine/reference/commandline/dockerd/#miscellaneous-options)
 [https://access.redhat.com/documentation/en-us/red\_hat\_enterprise\_linux/6/html/resource\_management\_guide/ch01](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch01)
+
 

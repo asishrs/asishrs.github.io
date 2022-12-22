@@ -1,7 +1,7 @@
 # Automated and Authenticated APIs stack using Lambda, API Gateway and Cloudformation (AWS)
 
 
-<img class="cp t u fz ak" src="/images/posts/aws-lambda-cf/lambda-cloud-formation.png" width="3921" height="2185" role="presentation"/>
+<img class="cp t u fz ak" src="/images/posts/aws-lambda-cf/lambda-cloud-formation.png" role="presentation"/>
 
 In this article, I will show how you can set up a protected API endpoint using AWS Lamda, API Gateway, and automate the deployment of the stack using AWS CloudFormation.
 
@@ -103,3 +103,4 @@ Conclusion
 ==========
 
 You now have a protected API with a Lambda integration! As a next step, you can replace the inline Lambda function with a real-world Lambda code. You can upload your Lambda functions to the Amazon S3 bucket and use that in your template. Check the S3 example [here](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html) . Good luck!
+

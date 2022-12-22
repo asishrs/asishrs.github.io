@@ -1,7 +1,7 @@
 # Automate your GitHub Pages Deployment using Hugo and Actions
 
 
-<img class="cp t u fz ak" src="/images/posts/hugo-actions/hugo-actions.png" width="3921" height="2185" role="presentation"/>
+<img class="cp t u fz ak" src="/images/posts/hugo-actions/hugo-actions.png" role="presentation"/>
 
 I am a fan of [Hugo](https://gohugo.io/) for building static websites and blogs. It is very easy to set up Hugo and start building webpages using markdown. If you want to add some serious customizations to your pages you can achieve that using [shortcodes](https://gohugo.io/content-management/shortcodes/). You have access to thousands of [themes](https://themes.gohugo.io/) which makes bootstrapping easy.
 
@@ -68,4 +68,5 @@ Navigate to _Your GitHub pages Repository > Settings > Deploy Key> Add new deplo
 6\. Check the workflow in the Actions tab of your Hugo Source repository.
 
 Once your workflow completed, you can see new commits on the GitHub pages repository `master` branch and in few minutes the changes will appear on your GitHub page URL.
+
 
